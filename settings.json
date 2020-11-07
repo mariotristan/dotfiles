@@ -37,7 +37,10 @@
                 "name": "Windows PowerShell",
                 "commandline": "powershell.exe",
                 "hidden": false,
-                "fontFace":  "Cascadia Code PL"
+                "fontFace":  "Cascadia Code PL", 
+                "startingDirectory": "%USERPROFILE%\\OneDrive\\Documents\\GitHub"
+                
+
 
             },
             {
@@ -53,7 +56,8 @@
                 "name": "Ubuntu-18.04",
                 "source": "Windows.Terminal.Wsl",
                 "fontFace":  "Cascadia Code PL",
-                "icon": "ms-appdata:///roaming/ubuntu-32.png"
+                "icon": "ms-appdata:///roaming/ubuntu-32.png",
+                "startingDirectory": "//wsl$/Ubuntu-18.04/home/mario"
             },
             {
                 "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
@@ -67,14 +71,16 @@
                 "name": "Ubuntu",
                 "source": "Windows.Terminal.Wsl",
                 "fontFace":  "Cascadia Code PL",
-                "icon": "ms-appdata:///roaming/ubuntu-32.png"
+                "icon": "ms-appdata:///roaming/ubuntu-32.png",
+                "startingDirectory": "//wsl$/Ubuntu/home/mario"
             },
             {
                 "guid": "{46ca431a-3a87-5fb3-83cd-11ececc031d2}",
                 "hidden": false,
                 "name": "kali-linux",
                 "source": "Windows.Terminal.Wsl",
-                "icon": "ms-appdata:///roaming/kali.png"
+                "icon": "ms-appdata:///roaming/kali.png",
+                "startingDirectory": "//wsl$/kali-linux/home/mario"
             }
         ]
     },
